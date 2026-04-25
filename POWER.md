@@ -1,5 +1,5 @@
 ---
-name: "ministack-power"
+name: "ministack"
 displayName: "MiniStack — Local AWS Emulator & Learning Environment"
 description: "Test and learn AWS locally for free. MiniStack emulates 40+ AWS services on a single port — no account, no Docker required, no cost. Perfect for testing existing code or learning AWS from scratch."
 keywords: ["ministack", "aws", "s3", "dynamodb", "lambda", "sqs", "localstack", "boto3", "terraform", "local aws"]
