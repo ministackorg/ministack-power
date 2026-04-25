@@ -92,3 +92,17 @@ SES, Firehose, CloudFormation, ALB, CloudFront, WAF, AppSync, Scheduler, and mor
 - GitHub: https://github.com/ministackorg/ministack
 - PyPI: https://pypi.org/project/ministack/
 - Docker Hub: https://hub.docker.com/r/ministackorg/ministack
+
+## License
+
+MIT — https://github.com/ministackorg/ministack/blob/main/LICENSE
+
+## Privacy Policy
+
+MiniStack runs entirely locally on your machine. No data is collected or transmitted.
+https://github.com/ministackorg/ministack
+
+## Support
+
+- GitHub Issues: https://github.com/ministackorg/ministack/issues
+- GitHub Discussions: https://github.com/ministackorg/ministack/discussions
