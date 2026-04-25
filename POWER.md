@@ -3,7 +3,7 @@ name: "ministack"
 displayName: "MiniStack — Local AWS Emulator & Learning Environment"
 description: "Test and learn AWS locally for free. MiniStack emulates 40+ AWS services on a single port — no account, no Docker required, no cost. Perfect for testing existing code or learning AWS from scratch."
 keywords: [
-  "aws", "s3", "sqs", "dynamodb", "lambda", "localstack", "local aws", "aws testing",
+  "ministack", "ministack-power", "aws", "s3", "sqs", "dynamodb", "lambda", "localstack", "local aws", "aws testing",
   "terraform", "cdk", "boto3", "aws emulator", "local development", "sns", "kinesis",
   "step functions", "api gateway", "ecs", "rds", "elasticache", "cognito", "cloudformation",
   "learn aws", "aws tutorial", "aws for beginners", "how does s3 work", "how does lambda work",
