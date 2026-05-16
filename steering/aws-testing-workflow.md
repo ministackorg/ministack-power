@@ -38,7 +38,7 @@ s3  = aws_client("s3")
 sqs = aws_client("sqs")
 ddb = aws_client("dynamodb")
 lam = aws_client("lambda")
-# ... any of the 40+ supported services
+# ... any of the 60+ supported services
 ```
 
 **AWS CLI:**

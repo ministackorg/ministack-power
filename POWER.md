@@ -1,8 +1,8 @@
 ---
 name: "ministack"
 displayName: "MiniStack — Local AWS Emulator & Learning Environment"
-description: "Test and learn AWS locally for free. MiniStack emulates 40+ AWS services on a single port — no account, no Docker required, no cost. Perfect for testing existing code or learning AWS from scratch."
-keywords: ["ministack", "aws", "s3", "dynamodb", "lambda", "sqs", "localstack", "boto3", "terraform", "local aws"]
+description: "Test and learn AWS locally for free. MiniStack emulates 60+ AWS services on a single port — no account, no Docker required, no cost. Perfect for testing existing code or learning AWS from scratch."
+keywords: ["ministack", "aws", "s3", "dynamodb", "lambda", "sqs", "sns", "kms", "cognito", "iam", "cloudwatch", "eventbridge", "step functions", "api gateway", "ecs", "eks", "rds", "elasticache", "glue", "athena", "kinesis", "firehose", "cloudformation", "secrets manager", "ssm", "localstack", "boto3", "terraform", "cdk", "local aws"]
 author: "MiniStack"
 ---
 
@@ -13,7 +13,7 @@ author: "MiniStack"
 # MiniStack — Local AWS Emulator & Learning Environment
 
 MiniStack lets you develop, test, and **learn** AWS locally — no account, no cost, no risk.
-It emulates 40+ AWS services on a single port and is MIT licensed, free forever.
+It emulates 60+ AWS services on a single port and is MIT licensed, free forever.
 
 ## Onboarding
 
@@ -70,16 +70,23 @@ aws --endpoint-url=http://localhost:4566 s3 mb s3://my-bucket
 - Learning EventBridge, event buses, rules → `learn-eventbridge.md`
 - Learning API Gateway, REST APIs, WebSocket → `learn-api-gateway.md`
 - Learning Cognito, user pools, authentication, sign-up, sign-in, JWT tokens, user management → `learn-cognito.md`
+- Learning CloudWatch, metrics, alarms, alarm actions, log groups, observability, Lambda metrics → `learn-cloudwatch.md`
 
 **Learning AWS patterns:**
 - Building a serverless REST API, Lambda + API Gateway + DynamoDB, CRUD API → `learn-serverless-rest-api.md`
 
 ## Supported Services
 
-40+ AWS services: S3, SQS, SNS, DynamoDB, Lambda, IAM, STS, SecretsManager, SSM,
-CloudWatch, EventBridge, Kinesis, Step Functions, API Gateway v1/v2 (WebSocket),
-ECS, EKS, RDS, ElastiCache, ECR, EFS, KMS, ACM, Route53, Cognito, Glue, Athena,
-SES, Firehose, CloudFormation, ALB, CloudFront, WAF, AppSync, Scheduler, and more.
+60+ AWS services: S3, SQS, SNS, DynamoDB, DynamoDB Streams, Lambda, IAM, STS,
+Account, Organizations, SecretsManager, SSM, AppConfig, CloudWatch, CloudWatch
+Logs, EventBridge, Scheduler, Pipes, Kinesis, Firehose, Step Functions, API
+Gateway v1/v2 (WebSocket included), ECS, EKS, Batch, EMR, RDS, RDS Data,
+ElastiCache, OpenSearch, ECR, EFS, KMS, ACM, Route 53, Cloud Map, Cognito, Glue,
+Athena, SES (v1 + v2), CloudFormation, CloudTrail, CloudFront, CloudFront
+KeyValueStore, AppSync, AppSync Events, ALB, AutoScaling, WAF (v1 + v2),
+Backup, CodeBuild, Transfer Family, Resource Groups, Tagging, EC2, IMDS,
+ECS Metadata, S3 files. See `mcp/catalog.json` in the ministack repo for the
+canonical service list.
 
 ## Links
 

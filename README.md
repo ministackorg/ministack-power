@@ -8,7 +8,7 @@
 
 <p align="center">
   Test and learn AWS locally for free.<br/>
-  MiniStack emulates 40+ AWS services on a single port — no account, no Docker required, no cost.
+  MiniStack emulates 60+ AWS services on a single port — no account, no Docker required, no cost.
 </p>
 
 <p align="center">
@@ -80,6 +80,7 @@ The power activates on keywords — no special commands needed.
 | `learn-eventbridge.md` | Event buses, rules, content filtering, Lambda targets |
 | `learn-api-gateway.md` | HTTP API, REST API, WebSocket, path params, JWT auth |
 | `learn-cognito.md` | User pools, sign-up/in, groups, token refresh, identity pools |
+| `learn-cloudwatch.md` | Metrics, alarms (with SNS actions), CloudWatch Logs, Lambda metrics |
 | `learn-serverless-rest-api.md` | Full CRUD API: API Gateway + Lambda + DynamoDB |
 
 ---

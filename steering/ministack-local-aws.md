@@ -78,8 +78,8 @@ Call this in `setUp`, `beforeEach`, or at the start of a test session to get a c
 
 ## Supported Services
 
-MiniStack supports 40+ AWS services including:
-S3, SQS, SNS, DynamoDB, Lambda, IAM, STS, SecretsManager, SSM, CloudWatch, EventBridge, Kinesis, Step Functions, API Gateway v1/v2 (WebSocket included), ECS, EKS, RDS, ElastiCache, ECR, EFS, KMS, ACM, Route53, Cognito, Glue, Athena, SES, Firehose, CloudFormation, ALB, CloudFront, WAF, AppSync, Scheduler, and more.
+MiniStack supports 60+ AWS services including:
+S3, SQS, SNS, DynamoDB, DynamoDB Streams, Lambda, IAM, STS, Account, Organizations, SecretsManager, SSM, AppConfig, CloudWatch, CloudWatch Logs, EventBridge, Scheduler, Pipes, Kinesis, Firehose, Step Functions, API Gateway v1/v2 (WebSocket included), ECS, EKS, Batch, EMR, RDS, RDS Data, ElastiCache, OpenSearch, ECR, EFS, KMS, ACM, Route 53, Cloud Map, Cognito, Glue, Athena, SES (v1 + v2), CloudFormation, CloudTrail, CloudFront, CloudFront KeyValueStore, AppSync, AppSync Events, ALB, AutoScaling, WAF (v1 + v2), Backup, CodeBuild, Transfer Family, Resource Groups, Tagging, and more.
 
 ## When to Use MiniStack
 
